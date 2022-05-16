@@ -1,0 +1,317 @@
+/*BASIC STYLE*/
+@import url('https://fonts.googleapis.com/css2?family=Khula&display=swap');@import url('https://fonts.googleapis.com/css2?family=Khula&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style-type: none;
+    font-size: 1.6rem;
+}
+html{
+    font-size: 62.5%;
+}
+body{
+    font-family: 'Khula', sans-serif;
+    scroll-behavior: smooth;
+}
+h1, h2, h3, p{
+    letter-spacing: 0.1rem;
+    font-weight: normal;
+}
+h2,h3{
+    color: #373737;
+}
+h1{
+    font-size: 4rem;
+    color: #FFFFFF;
+    margin-bottom: 1rem;
+}
+h2{
+    font-size: 2.4rem;
+}
+h3{
+    font-size: 2rem;
+}
+p{
+    color: #999999;
+}
+.hero-btn{
+    background: #06D6A0;
+    padding: 1rem 2rem;
+    cursor: pointer;
+    color: #FFFFFF;
+    outline: none;
+    border: 0.1rem solid #06D6A0;
+    text-transform: capitalize;
+    transition: 0.3s ease;
+}
+.hero-btn:hover{
+    background: #FFFFFF;
+    color: #06D6A0;
+}
+.container{
+    margin: 0 auto;
+    width: 120rem;
+}
+.flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.cards{
+    margin-top: 3rem;
+}
+.single-card{
+    width: 30%;
+}
+.para{
+    width: 60rem;
+    margin: auto;
+}
+.hero-text-box p{
+    color: #FFFFFF;
+}
+.hero-text-box h2{
+    color: #FFFFFF;
+}
+/*BASIC STYLE ENDS*/
+/*HEADER SECTION  STARTS*/
+header{
+    background: linear-gradient(90deg, rgba(27, 101, 218, 0.9), rgba(28, 200, 231, 0.9)), url('img/header-bg.png');
+    height: 85vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top bottom;
+}
+nav{
+    height: 15vh;
+}
+nav .logo{
+    width: 30%;
+}
+nav .logo{
+    width: 5rem;
+    height: auto;
+    object-fit: cover;
+}
+nav .menu a{
+    color: #FFFFFF;
+    text-transform: uppercase;
+    padding: 1rem;
+    transition: 0.3s;
+}
+nav .menu a:hover{
+    color: #06D6A0;
+}
+nav .menu .search-bar{
+    color: #FFFFFF;
+    font-size: 1.6rem;
+    margin-left: 0.5rem;
+    cursor: pointer;
+}
+nav .menu .search-bar:hover{
+    color: #06D6A0;
+}
+main{
+    height: 70vh;
+    justify-content: space-around;
+    margin:0 3rem;
+}
+main i{
+    font-size: 2rem;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+main .hero-text-box{
+    text-align: center;
+    width: 60rem;
+}
+main .hero-text-box h1{
+    width: 40rem;
+    margin: 0 auto;
+}
+main .hero-text-box i{
+    margin-top: 2rem;
+    background: #06D6A0;
+    border-radius: 50%;
+    padding: 1rem 1.5rem;
+}
+/*HEADER SECTION  ENDS*/
+/*ANALYSIS SECTION STARTS*/
+.analysis-section{
+    text-align: center;
+    height: 20rem;
+    margin-top: 7rem;
+}
+.analysis-section .analysis-form{
+    margin-top: 1rem;
+}
+.analysis-section .analysis-form input[type='url'], input[type='text'], input[type='email']{
+    height: 4rem;
+    padding: 1rem;
+    margin: 0 1rem;
+    outline: none;
+    border: 0.1rem solid #999;
+}
+.analysis-section .analysis-form input:last-child{
+    margin-left: 5rem;
+}
+/*ANALYSIS SECTION ENDS*/
+/*ABOUT US SECTION STARTS*/
+.about-section{
+    height: 30rem;
+    margin: 5rem auto;
+}
+.about-section img{
+    width: 45%;
+    height: 100%;
+    object-fit: contain;
+}
+.about-section .about-us-text-box{
+    width: 50%;
+    text-align: justify;
+}
+.about-section .about-us-text-box button{
+    margin-top: 1rem;
+}
+/*ABOUT US SECTION ENDS*/
+/*SERVICES SECTION STARTS*/
+.services-section{
+    margin: 7rem auto;
+    text-align: center;
+}
+.services-section .cards .single-card{
+    border: 0.2rem solid #06D6A0;
+    border-radius: 0.3rem;
+    padding: 3rem 1rem;
+}
+.services-section .cards .single-card span{
+    font-size: 5rem;
+    color: #999999;
+    margin: 1rem 0;
+}
+.services-section .cards .single-card .read-more{
+    color: #373737;
+    display: inline-block;
+    text-transform: uppercase;
+    margin-top: 1rem;
+    transition: 0.1s;
+}
+.services-section .cards .single-card .read-more:hover{
+    color: #06D6A0;
+}
+/*SERVICES SECTION ENDS*/
+/*CASE STUDY SECTION STARTS*/
+.case-study-section{
+    text-align: center;
+    margin: 7rem 0;
+}
+.case-study-section .case-study-img{
+    width: 100%;
+    height: 20rem;
+    margin-top: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.case-study-section .case-study-img img{
+    width: 20%;
+    height: 100%;
+    border: 0.1rem solid #ddd;
+    cursor: pointer;
+    opacity: 0.7;
+}
+.case-study-section .case-study-img img:hover{
+    opacity: 1;
+    border-color: #06D6A0;
+}
+/*CASE STUDY SECTION ENDS*/
+/*BLOG SECTION STARTS*/
+.blog-section{
+    margin: 7rem auto;
+    text-align: center;
+}
+.blog-section .cards .single-card{
+    cursor: pointer;
+}
+.blog-section .cards .single-card .box{
+    text-align: justify;
+    border: 0.1rem solid #999999;
+    padding: 2rem;
+    border-top: none;
+    margin-top: -2rem;
+}
+.blog-section .cards .single-card img{
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    opacity: 0.7;
+}
+.blog-section .cards .single-card .date{
+    font-size: 1.4rem;
+    color: #999999;
+    display: inline-block;
+    margin-top: 2rem;
+}
+.blog-section .cards .single-card h3{
+    margin-bottom: 1rem;
+}
+.blog-section .cards .single-card:hover img{
+    opacity: 1;
+}
+
+/*BLOG SECTION ENDS*/
+/*CONTACT US SECTION STARTS*/
+.contact-us-section-cover{
+    background: linear-gradient(90deg, rgba(27, 101, 218, 0.9), rgba(28, 200, 231, 0.9)), url('img/contact-us-bg.jpg');
+    height: 20rem;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.contact-us-section{
+    text-align: center;
+}
+.contact-us-section p {
+    margin: 1rem 0;
+}
+.contact-us-section .hero-btn{
+    color: #000000;
+    background: #FFFFFF;
+    border: none;
+    transition: 0.3s ease;
+}
+.contact-us-section .hero-btn:hover{
+    color: #06D6A0;
+}
+/*CONTACT US SECTION ENDS*/
+/*FOOTER SECTION STARTS*/
+footer div{
+    padding: 1.5rem 0;
+}
+footer div:last-child{
+    padding: 0.5rem 0;
+}
+footer div a{
+    color: #373737;
+    text-transform: capitalize;
+    padding: 0.5rem;
+    transition: 0.3s;
+}
+footer div a:hover{
+    color: #06D6A0;
+}
+footer div i{
+    font-size: 1.6rem;
+    padding: 0.5rem;
+    cursor: pointer;
+    transition: 0.3s;
+}
+footer div i:hover{
+    color: #06D6A0;
+}
+/*FOOTER SECTION ENDS*/
